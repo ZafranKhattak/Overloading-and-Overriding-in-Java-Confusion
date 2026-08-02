@@ -28,3 +28,8 @@ class Test {
         show("Zafran");
     }
 }
+
+* Output:
+* No parameter
+* One int parameter
+* One String parameter
