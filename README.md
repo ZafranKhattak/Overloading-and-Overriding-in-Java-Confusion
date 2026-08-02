@@ -6,8 +6,9 @@
 * Different parameter list
 * Usually in the same class
 * Example
-* * 1. Static Method Overloading ✅ Allowed
-* class Test {
+* Static Method Overloading ✅ Allowed
+
+class Test {
 
     static void show() {
         System.out.println("No parameter");
