@@ -33,3 +33,33 @@ class Test {
 * No parameter
 * One int parameter
 * One String parameter
+
+# 2. Static Method Overriding ❌ Not Allowed
+* Static methods belong to the class, not the object.
+* If a child class declares a static method with the same signature as the parent, it is method hiding, not overriding.
+
+class Parent
+{
+
+    static void show() {
+        System.out.println("Parent");
+    }
+}
+
+class Child extends Parent {
+
+    static void show() {
+        System.out.println("Child");
+    }
+}
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        Parent p = new Child();
+        p.show();
+    }
+}
+* OUTPUT
+* Parent
