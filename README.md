@@ -1,11 +1,12 @@
 # Overloading-and-Overriding-in-Java-Confusion
 
-* 1. Static Method Overloading ✅ Allowed
+
 # Overloading means:
 * Same method name
 * Different parameter list
 * Usually in the same class
 * Example
+* * 1. Static Method Overloading ✅ Allowed
 * class Test {
 
     static void show() {
